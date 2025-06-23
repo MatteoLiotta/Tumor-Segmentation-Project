@@ -15,14 +15,14 @@ Different loss usages are considered, with a particular attention to the intrins
 
 ### Computational Resources
 
-All the consideration power references should consider that the project was realised by training on a MacBook Air M3 (2024) 256 GB, with limited possibilities. The mail library used is `Torch`, with `mps` device.
+All the consideration power references should consider that the project was realised by training on a `MacBook Air M3 (2024) 256 GB`, with limited possibilities. The mail library used is `Torch`, with `mps` device.
 
 ### Dataset
 
 The used dataset is freely available at [4]. It contains approximatively 4000 images, with a weight of some gigabites. Different dataset could be more appropriated to the cause, but the average weight of 90 GB would have made the training procedure impossible on the hardware available. 
 
 However, you can find there:
-* Images $\rightarrow$ Then transformed to 96 x 96 px with 3 channels (RGB)
+* Images $\rightarrow$ Then transformed to `96 x 96 px` with `3` channels (RGB)
 * Binary Tumor Mask
   * Empty (`0`) in case of tumor absence
   * with `1` regions in case of tumor
