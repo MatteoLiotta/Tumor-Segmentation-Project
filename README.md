@@ -15,11 +15,11 @@ Different loss usages are considered, with a particular attention to the intrins
 
 > **For a better rendering of the `.ipynb` notebook** (available in the code folder) **please use `Visual Studio Code`.**
 
-### Computational Resources
+## Computational Resources
 
 All the consideration power references should consider that the project was realised by training on a `MacBook Air M3 (2024) 256 GB`, with limited possibilities. The mail library used is `Torch`, with `mps` device.
 
-### Dataset
+## Dataset
 
 The used dataset is freely available at [4]. It contains approximatively 4000 images, with a weight of some gigabites. Different dataset could be more appropriated to the cause, but the average weight of 90 GB would have made the training procedure impossible on the hardware available. 
 
@@ -37,7 +37,7 @@ Notice that, even if the dataset is medical, we have this imbalance between clas
 
 <img width="406" alt="image" src="https://github.com/user-attachments/assets/ff3920fe-e99a-4646-82b4-379261f63ffa" />
 
-### Proposed models overview
+## Proposed models overview
 
 The proposed model for the solution are 
 
@@ -54,7 +54,7 @@ And you can find the implementation of the SEgmenter TRansformer (SETR):
 Different considerations are made for model definitions and model training. 
 Training procedure uses the `adam` optimizer with a small $10^{-4}$ learning rate.
 
-### Results and final considerations
+## Results and final considerations
 
 Considering that models are trained on different losses, results are different. Results are accessed with different metrics over the training set (20% dataset).
 
