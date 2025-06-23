@@ -1,4 +1,4 @@
-# Tumor-Segmentation-Project
+# FLAIR Brain Tumor segmentation with DNN: from U-Net architecture to Vision Transformers
 
 This is the repository for the Deep learning course final project@ Units, Trieste, Italy. Here you can find all related files for the solution of the proposed task. 
 
