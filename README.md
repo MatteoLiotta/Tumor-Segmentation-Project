@@ -2,6 +2,10 @@
 
 This is the repository for the Deep learning course final project@ Units, Trieste, Italy. Here you can find all related files for the solution of the proposed task. 
 
+![image](https://github.com/user-attachments/assets/ed135868-d1b4-4233-a0c1-0fa696333677)
+
+
+
 ## Project Overview
 
 The project presents diffent approaches to the brain tumor segmemation with images obtained from fluid attenuated inversion recovery. 
