@@ -13,6 +13,8 @@ Different approaches are proposed, from U-net artificial neural networks to more
 
 Different loss usages are considered, with a particular attention to the intrinsic relation between result and the objective function. 
 
+> **For a better rendering of the `.ipynb` notebook** (available in the code folder) **please use `Visual Studio Code`.**
+
 ### Computational Resources
 
 All the consideration power references should consider that the project was realised by training on a `MacBook Air M3 (2024) 256 GB`, with limited possibilities. The mail library used is `Torch`, with `mps` device.
