@@ -17,7 +17,7 @@ Different loss usages are considered, with a particular attention to the intrins
 
 ## Computational Resources
 
-All the consideration power references should consider that the project was realised by training on a `MacBook Air M3 (2024) 256 GB`, with limited possibilities. The mail library used is `Torch`, with `mps` device.
+All the consideration power references should take into consideration that the project was realised entirely on a `MacBook Air M3 (2024) 256 GB`, with limited capabilities. The main library used is `Torch`, with `mps` device.
 
 ## Dataset
 
@@ -33,9 +33,10 @@ An example could be provided here:
 
 <img width="557" alt="image" src="https://github.com/user-attachments/assets/d4df8947-5e70-48eb-b578-79763fb8dc7c" />
 
-Notice that, even if the dataset is medical, we have this imbalance between classes:
+<!-- Notice that, even if the dataset is medical, we have this imbalance between classes:
 
-<img width="406" alt="image" src="https://github.com/user-attachments/assets/ff3920fe-e99a-4646-82b4-379261f63ffa" />
+<img width="406" alt="image" src="https://github.com/user-attachments/assets/ff3920fe-e99a-4646-82b4-379261f63ffa" /> -->
+
 
 ## Proposed models overview
 
@@ -49,7 +50,7 @@ The proposed model for the solution are
 
 And you can find the implementation of the SEgmenter TRansformer (SETR):
 
-* SETR trained with Dice Loss for approximately 350 epochs
+* SETR trained with Dice Loss for approximately $350$ epochs $\rightarrow$ $6$ hours trained
 
 Different considerations are made for model definitions and model training. 
 Training procedure uses the `adam` optimizer with a small $10^{-4}$ learning rate.
@@ -58,17 +59,17 @@ Training procedure uses the `adam` optimizer with a small $10^{-4}$ learning rat
 
 Considering that models are trained on different losses, results are different. Results are accessed with different metrics over the training set (20% dataset).
 
-The vision transformer is the one that maximixes on the metricd side.
+The vision transformer is the best one from the metrics side.
 
 On the proposed presentation PowerPoint you can also recover different model prediction evolution over the training on a fixed image, in order to see the model convergence towards the real tumoral region.
 
 Lastly, a consideration over model parameter number is made, making it visible as
 
-* All U-net models (since they have same architecture) have approximatively 1.8 M parameters
+* All U-net models (since they have same architecture) have approximatively $1.8 M$ parameters
 
-* The SETR model have approximatively 2.5 M parameters
+* The SETR model have approximatively $2.5 M$ parameters
 
-* The SETR model with an approprate large dimension parameter choice would have approximatively 203 M parameters, which is clearly impossible to train on the hardware considered above.
+* The SETR model with an appropriate large dimension parameter choice would have approximatively $203 M$ parameters, which is clearly impossible to train on the hardware considered above.
 
 
 
