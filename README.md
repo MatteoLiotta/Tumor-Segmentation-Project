@@ -8,7 +8,7 @@ This is the repository for the Deep learning course final project@ Units, Triest
 
 ## Project Overview
 
-The project presents diffent approaches to the brain tumor segmemation with images obtained from fluid attenuated inversion recovery. 
+The project presents diffent approaches to the brain tumor segmentation with images obtained from fluid attenuated inversion recovery. 
 Different approaches are proposed, from U-net artificial neural networks to more moder architectures: vision transformers. 
 
 Different loss usages are considered, with a particular attention to the intrinsic relation between result and the objective function. 
